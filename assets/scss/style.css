@@ -93,6 +93,12 @@ body::before {
 
 .main-body_img img {
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -264,6 +270,7 @@ body::before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
   gap: 2rem;
 }
 
@@ -280,7 +287,7 @@ body::before {
 .main-body_action > button {
   font-weight: bold;
   font-size: 22px;
-  padding: 15px 0;
+  padding: 15px 30px;
   min-width: 250px;
   border-radius: 50px;
   -webkit-border-radius: 50px;
